@@ -1,0 +1,16 @@
+{
+  "cabinets": [
+    {
+      "sceneName": "sf",
+      "cabinetName": "philo",
+      "token": "dPOiZ8EZfZpICeQ2-kbBwQvRVzWvx1WUUtIlXtbpkxA",
+      "url": "ws://10.15.10.190:12749"
+    }
+  ],
+  "servers": [
+    {
+      "name": "HiveMind",
+      "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    }
+  ]
+}

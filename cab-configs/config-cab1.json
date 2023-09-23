@@ -1,0 +1,16 @@
+{
+  "cabinets": [
+    {
+      "sceneName": "sf",
+      "cabinetName": "kqsf0",
+      "token": "9Ch7mAUCY0V8rnah",
+      "url": "ws://10.15.10.139:12749"
+    }
+  ],
+  "servers": [
+    {
+      "name": "HiveMind",
+      "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    }
+  ]
+}
