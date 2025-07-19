@@ -2,9 +2,9 @@
   "cabinets": [
     {
       "sceneName": "sf",
-      "cabinetName": "lvluproar",
-      "token": "ArneX3mVImAH3cK6f36ofLce1Db7IfgywUdmPd6_O88",
-      "url": "ws://10.15.10.62:12749"
+      "cabinetName": "kqsf1",
+      "token": "OlYf9AEEWBpnraIl",
+      "url": "ws://kq.local:12749"
     }
   ],
   "servers": [
