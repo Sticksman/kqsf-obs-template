@@ -2,9 +2,9 @@
   "cabinets": [
     {
       "sceneName": "sf",
-      "cabinetName": "vidam0",
-      "token": "OcEYzXgdNb5EcgKx",
-      "url": "ws://10.15.10.103:12749"
+      "cabinetName": "philo",
+      "token": "dPOiZ8EZfZpICeQ2-kbBwQvRVzWvx1WUUtIlXtbpkxA",
+      "url": "ws://10.15.10.82:12749"
     }
   ],
   "servers": [
