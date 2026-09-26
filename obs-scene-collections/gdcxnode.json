@@ -1258,10 +1258,23 @@
             "fade_to_black": true
         }
     ],
-    "saved_projectors": [],
+    "saved_projectors": [
+        {
+            "monitor": 1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAeAAAAAAAAADv8AAAQ3AAAHgAAAAAAAAA7/AAAENwAAAAEABAAAB4AAAAeAAAAAAAAADv8AAAQ3",
+            "alwaysOnTopOverridden": false
+        },
+        {
+            "monitor": 1,
+            "type": 3,
+            "geometry": "AdnQywADAAAAAAeAAAAAAAAADv8AAAQ3AAAHgAAAAAAAAA7/AAAENwAAAAEABAAAB4AAAAeAAAAAAAAADv8AAAQ3",
+            "alwaysOnTopOverridden": false
+        }
+    ],
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -10,
+    "scaling_level": -14,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
     "virtual-camera": {
@@ -1701,7 +1714,7 @@
                                 "type": 0,
                                 "idxType": 0,
                                 "idx": 0,
-                                "item": "SFX Instant Replay"
+                                "item": ""
                             },
                             "updateTransition": false,
                             "transitionType": 0,
@@ -2002,7 +2015,7 @@
                                 "type": 0,
                                 "idxType": 0,
                                 "idx": 0,
-                                "item": "SFX Instant Replay"
+                                "item": ""
                             },
                             "updateTransition": false,
                             "transitionType": 0,
@@ -2546,7 +2559,7 @@
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcix-assets/INSTANT REPLAY (1080p).mp4"
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/instant-replay-scramble-optimized.webm"
             },
             "mixers": 192,
             "sync": 0,
@@ -2582,7 +2595,7 @@
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcix-assets/INSTANT REPLAY (1080p).mp4"
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/instant-replay-scramble-optimized.webm"
             },
             "mixers": 192,
             "sync": 0,
@@ -2618,7 +2631,7 @@
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcix-assets/INSTANT REPLAY (1080p).mp4"
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/instant-replay-scramble-optimized.webm"
             },
             "mixers": 192,
             "sync": 0,
@@ -3259,7 +3272,7 @@
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcix-assets/INSTANT REPLAY (1080p).mp4"
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/instant-replay-scramble-optimized.webm"
             },
             "mixers": 192,
             "sync": 0,
@@ -3295,7 +3308,7 @@
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcix-assets/INSTANT REPLAY (1080p).mp4"
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/instant-replay-scramble-optimized.webm"
             },
             "mixers": 192,
             "sync": 0,
@@ -3331,7 +3344,7 @@
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcix-assets/INSTANT REPLAY (1080p).mp4"
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/instant-replay-scramble-optimized.webm"
             },
             "mixers": 192,
             "sync": 0,
@@ -3444,7 +3457,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 17,
+                "id_counter": 18,
                 "items": [
                     {
                         "name": "[COMP] Foundation",
@@ -3883,61 +3896,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "SFX Instant Replay",
-                        "source_uuid": "6085ab97-da0a-487c-9846-a36d3572922f",
-                        "visible": false,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 10,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "Instant Replay",
                         "source_uuid": "b999e518-9fae-4569-9bb2-b28e36ebffcc",
                         "visible": false,
@@ -4019,8 +3977,6 @@
                 "libobs.hide_scene_item.7": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": []
             },
@@ -4038,7 +3994,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 11,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "HMAuto-post",
@@ -4829,7 +4785,7 @@
                         "name": "Gold-Snail-IR-Stinger",
                         "source_uuid": "ee2ece42-77dd-45e8-badc-30c28a3c47a6",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -4968,6 +4924,42 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 537001986,
+            "name": "kqsf_x_logo",
+            "uuid": "5f2f0387-1f9b-4aed-be10-6d752c2e5a48",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/gdcx-logo.webm",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
@@ -5127,42 +5119,6 @@
         },
         {
             "prev_ver": 537001986,
-            "name": "SFX Instant Replay",
-            "uuid": "6085ab97-da0a-487c-9846-a36d3572922f",
-            "id": "ffmpeg_source",
-            "versioned_id": "ffmpeg_source",
-            "settings": {
-                "hw_decode": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/audio/sfx-instant-replay.mp3"
-            },
-            "mixers": 193,
-            "sync": 0,
-            "flags": 0,
-            "volume": 0.040759716182947159,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Play": [],
-                "MediaSource.Pause": [],
-                "MediaSource.Stop": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 2,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 537001986,
             "name": "Ticker",
             "uuid": "75df8227-ff19-4f0c-a971-eded122723ab",
             "id": "browser_source",
@@ -5252,39 +5208,6 @@
                 "reroute_audio": false
             },
             "mixers": 192,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 537001986,
-            "name": "x_logo",
-            "uuid": "abfe5aeb-0d40-44c3-b5c8-32f8ae6c267f",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "is_local_file": true,
-                "local_file": "/home/kqsf6/kqsf-obs-template/obs-resources/gdcx-assets/gdcx-white-2pct.svg"
-            },
-            "mixers": 255,
             "sync": 0,
             "flags": 0,
             "volume": 1.0,
@@ -5938,11 +5861,11 @@
                         "id": 6,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1539.0,
+                            "x": 1548.0,
                             "y": 180.89129638671875
                         },
                         "pos_rel": {
-                            "x": 1.0722222328186035,
+                            "x": 1.0888888835906982,
                             "y": -0.66501611471176147
                         },
                         "scale": {
@@ -5993,11 +5916,11 @@
                         "id": 13,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1419.556396484375,
+                            "x": 1428.556396484375,
                             "y": 83.232391357421875
                         },
                         "pos_rel": {
-                            "x": 0.85103034973144531,
+                            "x": 0.86769706010818481,
                             "y": -0.84586596488952637
                         },
                         "scale": {
@@ -6031,7 +5954,7 @@
                         "name": "Video.GoldCam",
                         "source_uuid": "36a59120-44ea-4313-bf68-9fbf2f8154b8",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -6048,11 +5971,11 @@
                         "id": 16,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1539.0,
+                            "x": 1548.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.0722222328186035,
+                            "x": 1.0888888835906982,
                             "y": -1.0
                         },
                         "scale": {
@@ -6621,7 +6544,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 47,
+                "id_counter": 48,
                 "items": [
                     {
                         "name": "Ticker prototype",
@@ -6789,61 +6712,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "x_logo",
-                        "source_uuid": "abfe5aeb-0d40-44c3-b5c8-32f8ae6c267f",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 46,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 1612.0,
-                            "y": 218.0
-                        },
-                        "pos_rel": {
-                            "x": 1.2074073553085327,
-                            "y": -0.59629631042480469
-                        },
-                        "scale": {
-                            "x": 0.33625000715255737,
-                            "y": 0.33666667342185974
-                        },
-                        "scale_rel": {
-                            "x": 0.33625000715255737,
-                            "y": 0.33666667342185974
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "kqsf_90s_logo",
                         "source_uuid": "c9769ea4-9509-4997-b104-848eb7a50938",
                         "visible": false,
@@ -6895,6 +6763,61 @@
                         },
                         "hide_transition": {
                             "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "kqsf_x_logo",
+                        "source_uuid": "5f2f0387-1f9b-4aed-be10-6d752c2e5a48",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 48,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1626.0,
+                            "y": 244.0
+                        },
+                        "pos_rel": {
+                            "x": 1.2333333492279053,
+                            "y": -0.54814815521240234
+                        },
+                        "scale": {
+                            "x": 0.23499999940395355,
+                            "y": 0.23499999940395355
+                        },
+                        "scale_rel": {
+                            "x": 0.23499999940395355,
+                            "y": 0.23499999940395355
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 300
+                        },
+                        "hide_transition": {
+                            "duration": 300
                         },
                         "private_settings": {}
                     },
@@ -7088,12 +7011,12 @@
                 "libobs.hide_scene_item.39": [],
                 "libobs.show_scene_item.42": [],
                 "libobs.hide_scene_item.42": [],
+                "libobs.show_scene_item.48": [],
+                "libobs.hide_scene_item.48": [],
                 "libobs.show_scene_item.38": [],
                 "libobs.hide_scene_item.38": [],
                 "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": [],
-                "libobs.show_scene_item.46": [],
-                "libobs.hide_scene_item.46": []
+                "libobs.hide_scene_item.41": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
