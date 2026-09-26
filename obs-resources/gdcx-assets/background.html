@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OBS Live Scrolling Background Layer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body, html { width: 1920px; height: 1080px; overflow: hidden; background-color: #1e293b; position: relative; font-family: sans-serif; }
+        .vignette { position: absolute; inset: 0; z-index: 10; pointer-events: none; background: radial-gradient(circle, transparent 20%, rgba(0, 0, 0, 0.5) 100%); }
+        
+        .center-graphic-container { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 1536px; height: 864px; display: flex; align-items: center; justify-content: center; z-index: 1; }
+        .center-graphic-container img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+        /* VERTICAL DRIVER */
+        .grid-wrapper {
+            position: absolute;
+            top: -160px; 
+            left: 0;
+            width: 100%;
+            height: calc(100% + 480px);
+            z-index: 5;
+            pointer-events: none;
+            animation: driftDownward 24s linear infinite;
+        }
+
+        .grid-row { display: flex; height: 80px; white-space: nowrap; flex-shrink: 0; position: relative; }
+        .grid-row-empty { height: 80px; width: 100%; flex-shrink: 0; }
+        .grid-cell { width: 129.44px; height: 80px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+        .grid-cell img { height: 53.28px; width: auto; object-fit: contain; }
+
+        /* HORIZONTAL MULTI-DIRECTIONAL TIMELINES */
+        .row-move-right { animation: scrollHorizontalRight 24s linear infinite; }
+        .row-move-left { animation: scrollHorizontalLeft 24s linear infinite; }
+
+        /* 
+           FIX: THE CLONE MULTIPLIER
+           This multiplies our base row pairs down cleanly at 160px vertical intervals. 
+           It generates 1,600px of extra grid height, blanketing a 1080p viewport area completely.
+        */
+        .clone-down {
+            filter: drop-shadow(0px 320px rgba(255,255,255,1))
+                    drop-shadow(0px 640px rgba(255,255,255,1))
+                    drop-shadow(0px 960px rgba(255,255,255,1))
+                    drop-shadow(0px 1280px rgba(255,255,255,1));
+        }
+
+        @keyframes scrollHorizontalRight {
+            0% { transform: translateX(-517.76px); }
+            100% { transform: translateX(0); }
+        }
+
+        @keyframes scrollHorizontalLeft {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-517.76px); }
+        }
+
+        @keyframes driftDownward {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(160px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="vignette"></div>
+
+    <!-- LAYER 1: Large Static Centered Brand Image -->
+    <div class="center-graphic-container">
+        <img src="kqaa-white-1.5pct.svg" alt="Center Background Graphic">
+    </div>
+
+    <!-- LAYER 2: Non-Truncated Full-Screen Scrolling Track Matrix -->
+    <div class="grid-wrapper">
+        <!-- Track 1: Master Right-Moving Row (Multiplies itself downward automatically) -->
+        <div class="grid-row row-move-right clone-down">
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+        </div>
+        
+        <div class="grid-row-empty"></div>
+
+        <!-- Track 2: Master Left-Moving Row (Multiplies itself downward automatically) -->
+        <div class="grid-row row-move-left clone-down">
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+            <div class="grid-cell"><img src="gdcx-white-2pct.svg"></div><div class="grid-cell"></div>
+        </div>
+        
+        <div class="grid-row-empty"></div>
+    </div>
+
+</body>
+</html>
